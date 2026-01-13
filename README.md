@@ -1,111 +1,30 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<title>Jadwal Kelas XII-F</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+# 📅 Jadwal Pelajaran XII-F - SMAN 1 Trenggalek
 
-<style>
-body{
-  margin:0;
-  font-family:Segoe UI, Arial, sans-serif;
-  background:linear-gradient(135deg,#C9A7E3,#E6B4CF,#B8D8F2,#F5E1A4);
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-.container{
-  background:#fff;
-  width:95%;
-  max-width:720px;
-  padding:24px;
-  border-radius:16px;
-  box-shadow:0 15px 35px rgba(0,0,0,.25);
-}
-h1{
-  text-align:center;
-  margin:0 0 10px;
-}
-.subtitle{
-  text-align:center;
-  font-size:13px;
-  color:#666;
-  margin-bottom:18px;
-}
-select{
-  width:100%;
-  padding:12px;
-  border-radius:10px;
-  border:1px solid #ccc;
-  margin-bottom:16px;
-  font-size:14px;
-}
-table{
-  width:100%;
-  border-collapse:collapse;
-}
-th,td{
-  border:1px solid #ddd;
-  padding:8px;
-  text-align:center;
-  font-size:13px;
-}
-th{
-  background:#f3f4f6;
-}
-.badge{
-  display:inline-block;
-  padding:6px 14px;
-  background:#eef2ff;
-  border-radius:999px;
-  font-size:12px;
-  margin-bottom:10px;
-}
-footer{
-  text-align:center;
-  font-size:12px;
-  color:#777;
-  margin-top:16px;
-}
-</style>
-</head>
+Website sederhana untuk memudahkan teman-teman kelas XII-F dalam mengecek jadwal pelajaran harian secara cepat dan interaktif.
 
-<body>
-<div class="container">
+## 🔗 Link Website
+Silakan akses jadwal di sini: 
+👉 [https://zackytiks.github.io/jadwal-pelajaran-12F/](https://zackytiks.github.io/jadwal-pelajaran-12F/)
 
-<h1>Jadwal Pelajaran</h1>
-<div class="subtitle">Kelas XII-F • SMA Negeri 1 Trenggalek</div>
+## ✨ Fitur
+- **Interaktif:** Pilih hari untuk melihat mata pelajaran yang ada.
+- **Responsive:** Tampilan rapi saat dibuka di HP (Smartphone) maupun Laptop.
+- **Ringan:** Dibuat dengan HTML, CSS, dan JavaScript murni tanpa memberatkan kuota.
+- **Database Lokal:** Data jadwal disimpan langsung di dalam kode untuk akses instan.
 
-<select id="hari" onchange="tampilkan()">
-  <option value="">Pilih Hari</option>
-  <option value="Senin">Senin</option>
-  <option value="Selasa">Selasa</option>
-  <option value="Rabu">Rabu</option>
-  <option value="Kamis">Kamis</option>
-  <option value="Jumat">Jumat</option>
-</select>
+## 🛠️ Teknologi yang Digunakan
+- **HTML5:** Struktur konten.
+- **CSS3:** Desain UI dengan efek Gradient dan Shadow.
+- **JavaScript:** Logika untuk menampilkan data jadwal secara dinamis.
 
-<div id="hasil"></div>
+## 📖 Cara Penggunaan
+1. Buka link website di atas.
+2. Klik pada dropdown **"Pilih Hari"**.
+3. Pilih hari yang ingin dilihat (Senin - Jumat).
+4. Jadwal akan otomatis muncul di bawahnya.
 
-<footer>Tahun Pelajaran 2025/2026</footer>
-
-</div>
-
-<script>
-/* ===============================
-   DAFTAR MAPEL (KODE 01–70)
-   =============================== */
-const guruMapel = {
- "01":"Kepala Sekolah",
-
- "02":"PAI","03":"PAI","04":"PAI","05":"PAI",
- "06":"PA Kristen","07":"PA Katolik",
-
- "08":"Pendidikan Pancasila","09":"Pendidikan Pancasila",
-
- "10":"Bahasa Indonesia","11":"Bahasa Indonesia",
- "12":"Bahasa Indonesia","13":"Bahasa Indonesia","14":"Bahasa Indonesia",
+## 🧑‍💻 Author
+Dibuat oleh **[Nama Kamu/Zackytiks]** dari kelas XII-F.
 
  "15":"Matematika","16":"Matematika","17":"Matematika Lanjut",
  "18":"Matematika","19":"Matematika Lanjut",
